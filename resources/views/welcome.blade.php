@@ -405,7 +405,8 @@
 </head>
 
 <body class="antialiased">
-    <h1>Welcome to Cars Project</h1>
+    <h1>Welcome {{$name}}</h1>
+    <p>I'm {{$age}} years old.</p>
 </body>
 
 </html><a href=""></a>
