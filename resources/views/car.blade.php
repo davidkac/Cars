@@ -405,16 +405,10 @@
 </head>
 
 <body class="antialiased">
-
-    <h1>Cars</h1>
-
-    @foreach($cars as $car)
-
-    <a href="/cars/{{$car->id}}">
-        <h1>{{$car->title}}</h1>
-    </a>
-    @endforeach
-
+    <ul>
+        <li>{{$cars->title}}</li>
+        <li>{{$cars->producer}}</li>
+    </ul>
 </body>
 
-</html>
+</html><a href=""></a>
